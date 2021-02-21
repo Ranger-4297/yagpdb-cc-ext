@@ -1,0 +1,25 @@
+{
+    "name": "yagpdb-cc",
+    "displayName": "YAGPDB-CC",
+    "description": "Syntax highlighting for YAGPDB Custom Commands",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "yagpdbcc",
+            "aliases": ["YAGPDB CC", "yagpdbcc"],
+            "extensions": [".yag",".yagpdb","yagcc",".yagpdbcc",".go.tmpl",".gotmpl",".gotemplate",".go.template"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "yagpdbcc",
+            "scopeName": "source.yag",
+            "path": "./syntaxes/yagpdbcc.tmLanguage.json"
+        }]
+    }
+}
