@@ -36,7 +36,7 @@
 					"name": "constant.numeric.yag"
 				},
 				{
-					"match": "\\bnil\\b",
+					"match": "\\b(nil|true|false)\\b",
 					"name": "constant.language.yag"
 				},
 				{
