@@ -32,6 +32,10 @@
 					"name": "variable.other.yag"
 				},
 				{
+					"match": "\\b\\d+\\b",
+					"name": "constant.numeric.yag"
+				},
+				{
 					"match": "\\bnil\\b",
 					"name": "constant.language.yag"
 				},
