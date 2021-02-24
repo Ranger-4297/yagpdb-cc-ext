@@ -57,6 +57,9 @@
 						},
 						{
 							"include": "#string_escaped_char"
+						},
+						{
+							"include": "#discord_markup"
 						}
 					]
 				},
@@ -70,6 +73,9 @@
 						},
 						{
 							"include": "#string_escaped_char"
+						},
+						{
+							"include": "#discord_markup"
 						}
 					]
 				},
@@ -80,6 +86,9 @@
 					"patterns": [
 						{
 							"include": "#string_placeholder"
+						},
+						{
+							"include": "#discord_markup"
 						}
 					]
 				},
@@ -90,6 +99,9 @@
 					"patterns": [
 						{
 							"include": "#string_placeholder"
+						},
+						{
+							"include": "#discord_markup"
 						}
 					]
 				}
@@ -97,6 +109,62 @@
 		}
 	],
 	"repository": {
+		"discord_markup": {
+			"patterns": [
+				{
+					"begin": "\\*\\*",
+					"end": "\\*\\*",
+					"contentName": "markup.bold"
+				},
+				{
+					"begin": "\\*",
+					"end": "\\*",
+					"contentName": "markup.italic"
+				},
+				{
+					"begin": "\\_",
+					"end": "\\_",
+					"contentName": "markup.italic"
+				},
+				{
+					"patterns": [
+						{
+							"begin": "\\_\\_",
+							"end": "\\_\\_",
+							"contentName": "markup.underline",
+							"patterns": [
+								{
+									"begin": "\\*\\*",
+									"end": "\\*\\*",
+									"contentName": "markup.bold",
+									"patterns": [
+										{
+											"begin": "\\_",
+											"end": "\\_",
+											"contentName": "markup.italic"
+										}
+									]
+								},
+								{
+									"begin": "\\_",
+									"end": "\\_",
+									"contentName": "markup.italic"
+								}
+							]
+						}
+					]
+				},
+				{
+					"patterns": [
+						{
+							"begin": "\\~\\~",
+							"end": "\\~\\~",
+							"contentName": "markup.deleted"
+						}
+					]
+				}
+			]
+		},
 		"string_escaped_char": {
 			"patterns": [
 				{

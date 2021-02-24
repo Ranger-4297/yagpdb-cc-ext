@@ -2,7 +2,13 @@
     "name": "yagpdb-cc",
     "displayName": "YAGPDB-CC",
     "description": "Syntax highlighting for YAGPDB Custom Commands",
-    "version": "0.0.1",
+    "publisher": "SpecialEliteSNP",
+    "icon": "./icon.jpg",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SpecialEliteSNP/yagpdb-cc-ext"
+    },
     "engines": {
         "vscode": "^1.53.0"
     },
@@ -12,8 +18,8 @@
     "contributes": {
         "languages": [{
             "id": "yagpdbcc",
-            "aliases": ["YAGPDB CC", "yagpdbcc"],
-            "extensions": [".yag",".yagpdb","yagcc",".yagpdbcc",".go.tmpl",".gotmpl",".gotemplate",".go.template"],
+            "aliases": ["YAGPDB CC", "yag", "yagpdb", "yagcc", "yagpdbcc", "YAGPDB Custom Commands"],
+            "extensions": [".yag", ".yagpdb", "yagcc", ".yagpdbcc"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
