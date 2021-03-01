@@ -14,7 +14,8 @@ Github: https://github.com/SpecialEliteSNP/yagpdb-cc-ext
 
 ## Requirements
 
-Regocnised file extensions are `.yag`, `.yagpdb`, `yagcc` and `.yagpdbcc`.
+Recognised file extensions are `.yag`, `.yagpdb`, `yagcc` and `.yagpdbcc`.
+You can also change the language of the file to `"YAGPDB-CC"`
 
 ## Extension Settings
 
