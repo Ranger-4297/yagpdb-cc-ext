@@ -28,12 +28,12 @@
     ],
     "folding": {
         "markers": {
-            "start": "\\{\\{\\s*(else(\\sif\\s.*)?|(if|range|block|define|with)\\s+.*)\\}\\}",
+            "start": "\\{\\{\\s*(else(\\sif\\s.*)?\\s*|(if|range|block|define|with)\\s+.*)\\}\\}",
             "end": "\\{\\{\\s*e(lse(\\sif\\s.*)?|nd\\s*)\\}\\}"
         }
     },
     "indentationRules": {
-        "increaseIndentPattern": "\\{\\{\\s*(else(\\sif\\s.*)?|(if|range|block|define|with)\\s+.*)\\}\\}",
+        "increaseIndentPattern": "\\{\\{\\s*(else(\\sif\\s.*)?\\s*|(if|range|block|define|with)\\s+.*)\\}\\}",
         "decreaseIndentPattern": "\\{\\{\\s*e(lse(\\sif\\s.*)?|nd\\s*)\\}\\}"
     }
 }
