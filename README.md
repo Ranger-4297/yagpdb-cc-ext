@@ -2,6 +2,7 @@
 
 This extensions shows syntax highlighting YAGPDB Custom Commands.
 Github: https://github.com/SpecialEliteSNP/yagpdb-cc-ext
+VSC Marketplace: https://marketplace.visualstudio.com/items?itemName=SpecialEliteSNP.yagpdb-cc
 
 ## Features
 
