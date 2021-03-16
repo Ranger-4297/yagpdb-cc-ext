@@ -10,13 +10,13 @@
 			"contentName": "comment.block.yag"
 		},
 		{
-			"begin": "\\{\\{",
+			"begin": "\\{\\{(\\-\\s)?",
 			"beginCaptures": {
 				"0": {
 					"name": "punctuation.section.embedded.yag"
 				}
 			},
-			"end": "\\}\\}",
+			"end": "(\\s\\-)?\\}\\}",
 			"endCaptures": {
 				"0": {
 					"name": "punctuation.section.embedded.yag"
@@ -28,27 +28,27 @@
 					"name": "keyword.operator.yag"
 				},
 				{
+					"match": "\\b\\d+(\\.\\d+)?\\b",
+					"name": "constant.numeric.yag"
+				},
+				{
 					"match": "\\$\\w+|\\$?\\.\\w*",
 					"name": "variable.other.yag"
 				},
 				{
-					"match": "\\b\\d+\\b",
-					"name": "constant.numeric.yag"
-				},
-				{
-					"match": "\\b(nil|true|false)\\b",
+					"match": "\\b(?:nil|true|false)\\b",
 					"name": "constant.language.yag"
 				},
 				{
-					"match": "\\b(if|else|range|template|block|define|with|end)\\b",
+					"match": "\\b(?:if|else|range|template|block|define|with|end)\\b",
 					"name": "keyword.control.yag"
 				},
 				{
-					"match": "\\b(and|call|html|index|js|len|not|or|print(f|ln)?|urlquery|eq|ne|lt|le|gt|ge)\\b",
+					"match": "\\b(?:and|call|html|index|js|len|not|or|print(?:f|ln)?|urlquery|eq|ne|lt|le|gt|ge)\\b",
 					"name": "support.function.yag"
 				},
 				{
-					"match": "\\b(userArg|past(User|Nick)names|edit(Channel(Name|Topic)|Message(NoEscape)?|Nickname)|get(Channel|Member|Message)|onlineCount(Bots)?|(current|format)Time|humanize(Duration(Hour|Minute|Second)s|TimeSinceDays|Thousands)|db(Set(Expire)?|Incr|Get(Pattern(Reverse)?)?|Del(ByID)?|(Top|Bottom)Entries|Count)|to(Byte|Duration|Float|Int(64)?|Rune|String)|re(Find(All(Submatches)?)?|Replace)|complexMessage(Edit)?|currentUser(Age(Human|Minutes)|Created)|exec(Admin|CC)?|mention(Everyone|Here)|(add|give|has|mention|remove|take|targetHas)Role(ID|Name)|in(Fold)?|(low|upp)er|json|s?dict|newDate|c?slice|str(uctToSdict)?|joinStr|urlescape|title|kindOf|parseArgs|f?div|round(Ceil|Floor|Even)?|randInt|add|mult|log|mod|pow|adjective|noun|c(embed|arg)|s(plit|qrt|ub|eq|huffle|leep)|send(DM|Template(DM)?|Message(NoEscape)?(RetID)?)|delete(AllMessageReactions|Message(Reaction)?|Response|Trigger)|add(Message|Response)?Reactions|(cancelScheduled|schedule)UniqueCC)\\b",
+					"match": "\\b((?:(?:deleteAllMessag|add(?:Respons|Messag))eReaction|humanize(?:Duration(?:Second|Hour)|T(?:imeSinceDay|housand))|onlineCountBot)s|(?:sendMessage(?:NoEscape)?Ret|dbDelBy)ID|(?:cancelScheduled|schedule)UniqueCC|(?:humanizeDurationMinut|currentUserAgeMinut|reFindAllSubmatch|db(?:Bottom|Top)Entri)es|(?:deleteMessageReactio|currentUserAgeHuma|toDuratio|roundEve|nou|jso)n|s(?:endMessage(?:NoEscape)?|tr)|(?:d(?:b(?:GetPatternRevers|SetExpir)|eleteRespons)|(?:(?:targetH|h)as|mention|remove|take|give|add)RoleNam|mentionEveryon|edit(?:ChannelN|Nickn)am|mentionHer|(?:curren|forma)tTim|getMessag|adjectiv|(?:reRepla|sli)c|shuffl|newDat|t(?:o(?:Run|Byt)|itl)|cslic)e|editMessageNoEscape|c(?:omplexMessageEdit|urrentUserCreated|embed)|e(?:ditChannelTopic|xec(?:Admin|CC))|(?:targetH|h)asRoleID|complexMessage|s(?:e(?:nd(?:Template)?DM|q)|leep|ub)|d(?:eleteMessage|b(?:Get(?:Pattern)?|Del|Set))|(?:s(?:(?:tructToS)?dic|qr)|toFloa|randIn|d(?:bCoun|ic)|mul)t|mentionRoleID|p(?:a(?:st(?:Nick|User)name|rseArg)s|ow)|(?:deleteTrigg|getMemb|low)er|removeRoleID|onlineCount|e(?:ditMessage|xec)|takeRoleID|g(?:iveRoleID|etChannel)|(?:roundFloo|joinSt|dbInc)r|r(?:eFind(?:All)?|ound)|addRoleID|roundCeil|u(?:rlescape|serArg|pper)|(?:toStrin|car)g|toInt64|kindOf|(?:inFol|mo)d|toInt|split|fdiv|add|log|div|in)\\b",
 					"name": "support.class.yag"
 				},
 				{
