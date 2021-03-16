@@ -26,12 +26,6 @@
         ["\"", "\""],
         ["`", "`"]
     ],
-    "folding": {
-        "markers": {
-            "start": "\\{\\{\\s*(else(\\sif\\s.*)?\\s*|(if|range|block|define|with)\\s+.*)\\}\\}",
-            "end": "\\{\\{\\s*e(lse(\\sif\\s.*)?|nd\\s*)\\}\\}"
-        }
-    },
     "indentationRules": {
         "increaseIndentPattern": "\\{\\{\\s*(else(\\sif\\s.*)?\\s*|(if|range|block|define|with)\\s+.*)\\}\\}",
         "decreaseIndentPattern": "\\{\\{\\s*e(lse(\\sif\\s.*)?|nd\\s*)\\}\\}"
