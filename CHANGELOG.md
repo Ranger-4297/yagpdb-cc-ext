@@ -19,3 +19,6 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 - Full support for trims
 - Fixed a folding issue
 - Better regex and now all non-capturing groups
+
+## [1.1.1] - 28-04-2021
+- Rebuilt the `support.class` regex to account for missing addReactions recognition
