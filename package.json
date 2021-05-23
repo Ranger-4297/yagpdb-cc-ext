@@ -25,7 +25,7 @@
         "languages": [{
             "id": "yagpdbcc",
             "aliases": ["YAGPDB CC", "yag", "yagpdb", "yagcc", "yagpdbcc", "YAGPDB Custom Commands"],
-            "extensions": [".yag", ".yagpdb", ".yagcc", ".yagpdbcc", ".gotmpl"],
+            "extensions": [".yag", ".yagpdb", ".yagcc", ".yagpdbcc"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
