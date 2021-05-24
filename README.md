@@ -19,7 +19,9 @@ Recognised file extensions are `.yag`, `.yagpdb`, `yagcc` and `.yagpdbcc`.
 You can also change the language of the file to `"YAGPDB-CC"`
 
 ## Extension Settings
-> The default location for this extension on Windows is `C:\Users\YourName\.vscode\extensions\specialelitesnp.yagpdbc-cc-X-X-X\`
+> The default locations for this extension are:
+> - Windows `%USERPROFILE%\.vscode\extensions`
+> - macOS/Linux `~/.vscode/extensions`
 
 There is an option to also recognise Discord Markup, but it's not perfect and annoying most of the time.
 You can however enable it by changing `contributes.grammars[0].path` to `"./syntaxes/yagpdbcc_markup.tmLanguage.json"`.
