@@ -22,3 +22,6 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 
 ## [1.1.1] - 28-04-2021
 - Rebuilt the `support.class` regex to account for missing addReactions recognition
+
+## [1.1.2] - 24-05-2021
+- Explanation in the README on how to add custom file extension support
