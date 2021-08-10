@@ -21,7 +21,10 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 - Better regex and now all non-capturing groups
 
 ## [1.1.1] - 28-04-2021
-- Rebuilt the `support.class` regex to account for missing addReactions recognition
+- Rebuilt the `support.class` regex to account for missing `addReactions` recognition
 
 ## [1.1.2] - 24-05-2021
 - Explanation in the README on how to add custom file extension support
+
+## [1.1.3] - 05-08-2021
+- Added `reSplit`, `dbDelMultiple`, `dbRank`, `sort`, `hasPrefix` & `hasSuffix`
