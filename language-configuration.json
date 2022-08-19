@@ -27,7 +27,7 @@
         ["`", "`"]
     ],
     "indentationRules": {
-        "increaseIndentPattern": "\\{\\{(\\-\\s)?\\s*(else(\\sif\\s.*)?\\s*|(if|range|block|define|with)\\s.*)(\\s\\-)?\\}\\}",
+        "increaseIndentPattern": "\\{\\{(\\-\\s)?\\s*(else(\\sif\\s.*)?\\s*|(if|range|block|define|w(ith|hile))\\s.*)(\\s\\-)?\\}\\}",
         "decreaseIndentPattern": "\\{\\{(\\-\\s)?\\s*e(lse(\\sif\\s.*)?|nd)\\s*(\\s\\-)?\\}\\}",
     }
 }

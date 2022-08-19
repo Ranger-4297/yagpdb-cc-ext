@@ -28,3 +28,6 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 
 ## [1.1.3] - 05-08-2021
 - Added `reSplit`, `dbDelMultiple`, `dbRank`, `sort`, `hasPrefix` & `hasSuffix`
+
+## [1.1.4] - 19-08-22
+- Added all methods and functions that were missing, following the previous update
