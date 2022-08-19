@@ -2,11 +2,11 @@
     "name": "yagpdb-cc",
     "displayName": "YAGPDB-CC",
     "version": "1.1.4",
-    "publisher": "Ranger-4297",
+    "publisher": "ranger-4297",
     "description": "Updated syntax highlighting for YAGPDB Custom Commands",
     "author": {
-        "name": "SpecialEliteSNP",
-        "url": "https://github.com/SpecialEliteSNP"
+        "name": "ranger-4297",
+        "url": "https://github.com/ranger-4297"
     },
     "categories": ["Programming Languages"],
     "icon": "icon.png",
