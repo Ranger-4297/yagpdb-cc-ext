@@ -1,6 +1,6 @@
 {
     "name": "yagpdb-cc",
-    "displayName": "YAGPDB-CC",
+    "displayName": "YAGPDB-CC-UPDATED",
     "version": "1.1.4",
     "publisher": "ranger-4297",
     "description": "Updated syntax highlighting for YAGPDB Custom Commands",
@@ -23,7 +23,7 @@
     },
     "contributes": {
         "languages": [{
-            "id": "yagpdbcc",
+            "id": "yagpdbcc-updated",
             "aliases": ["YAGPDB CC", "yag", "yagpdb", "yagcc", "yagpdbcc", "YAGPDB Custom Commands"],
             "extensions": [".yag", ".yagpdb", ".yagcc", ".yagpdbcc"],
             "configuration": "./language-configuration.json"
