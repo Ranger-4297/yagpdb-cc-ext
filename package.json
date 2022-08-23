@@ -22,7 +22,25 @@
     "color": "#EC7760",
     "theme": "dark"
   },
+  "activationEvents": [
+    "onCommand:yagpdbcc.helloWorld"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
   "contributes": {
+    "commands": [
+      {
+        "command": "yagpdbcc.helloWorld",
+        "title": "Hello World"
+      }
+    ],
     "configuration": {
       "title": "Grammar file",
       "properties": {
