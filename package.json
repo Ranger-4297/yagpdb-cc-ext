@@ -1,75 +1,64 @@
 {
-    "name": "yagpdb-cc-updated",
-    "displayName": "YAGPDB-CC-UPDATED",
-    "version": "1.1.5",
-    "publisher": "ranger-4297",
-    "description": "Updated syntax highlighting for YAGPDB Custom Commands",
-    "author": {
-        "name": "ranger-4297",
-        "url": "https://github.com/ranger-4297"
+  "name": "yagpdb-cc-updated",
+  "displayName": "YAGPDB-CC-UPDATED",
+  "description": "Updated syntax highlighting for YAGPDB Custom Commands",
+  "author": {
+    "name": "ranger-4297",
+    "url": "https://github.com/ranger-4297"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ranger-4297/yagpdb-cc-ext"
+  },
+  "version": "1.5.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#EC7760",
+    "theme": "dark"
+  },
+  "contributes": {
+    "configuration": {
+      "title": "Grammar file",
+      "properties": {
+        "yagpdbcc.syntaxHighlighting": {
+          "description": "Specifies which language file to highlight based on",
+          "type": "string",
+          "default": "yagpdbcc.tmLanguage",
+          "enum": [
+            "yagpdbcc.tmLanguage",
+            "yagpdbcc_markup.tmLanguage"
+          ]
+        }
+      }
     },
-    "categories": [
-        "Programming Languages"
-    ],
-    "icon": "icon.png",
-    "galleryBanner": {
-        "color": "#EC7760",
-        "theme": "dark"
-    },
-    "engines": {
-        "vscode": "^1.53.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ranger-4297/yagpdb-cc-ext"
-    },
-    "contributes": {
-        "configuration": {
-            "title": "Grammars",
-            "properties": {
-                "yagpdbcc.syntaxHighlighting": {
-                    "description": "Specifies which language file highlight based on",
-                    "type": "string",
-                    "default": "yagpdbcc.tmLanguage",
-                    "enum": ["yagpdbcc.tmLanguage","yagpdbcc_markup.tmLanguage"]
-                }
-            }
-        },
-        "languages": [
-            {
-                "id": "yagpdbcc",
-                "aliases": [
-                    "YAGPDB CC",
-                    "yag",
-                    "yagpdb",
-                    "yagcc",
-                    "yagpdbcc",
-                    "YAGPDB Custom Commands"
-                ],
-                "extensions": [
-                    ".yag",
-                    ".yagpdb",
-                    ".yagcc",
-                    ".yagpdbcc"
-                ],
-                "configuration": "./language-configuration.json"
-            }
+    "languages": [
+      {
+        "id": "yagpdb-cc",
+        "aliases": [
+          "YAGPDB CC",
+          "yagpdb-cc"
         ],
-        "grammars": [
-            {
-                "language": "yagpdbcc",
-                "scopeName": "source.yag",
-                "path": "./syntaxes/yagpdbcc.tmLanguage.json"
-            }
-        ]
-    },
-    "__metadata": {
-        "id": "e3719001-a5d4-40f6-8cc5-2c2c98d6643c",
-        "publisherDisplayName": "ranger-4297",
-        "publisherId": "cd655f75-fbbd-454b-8a37-28e41274bc69",
-        "isPreReleaseVersion": false,
-        "targetPlatform": "undefined",
-        "isApplicationScoped": false,
-        "preRelease": false
-    }
+        "extensions": [
+          ".cc.go .yagpdb .yag .yagcc .yagpdbcc"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "yagpdb-cc",
+        "scopeName": "source.yag",
+        "path": "./syntaxes/yagpdb-cc.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vscode": "^1.1.37"
+  }
 }
