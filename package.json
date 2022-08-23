@@ -24,6 +24,17 @@
         "url": "https://github.com/ranger-4297/yagpdb-cc-ext"
     },
     "contributes": {
+        "configuration": {
+            "title": "Grammars",
+            "properties": {
+                "yagpdbcc.syntaxHighlighting": {
+                    "description": "Specifies which language file highlight based on",
+                    "type": "string",
+                    "default": "yagpdbcc.tmLanguage",
+                    "enum": ["yagpdbcc.tmLanguage","yagpdbcc_markup.tmLanguage"]
+                }
+            }
+        },
         "languages": [
             {
                 "id": "yagpdbcc",
