@@ -2,3 +2,4 @@ node_modules/
 .vscode/**
 .vscodeignore
 package-lock.json
+*.js.map
