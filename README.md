@@ -9,17 +9,14 @@ Github: https://github.com/SpecialEliteSNP/yagpdb-cc-ext
 VSC Marketplace: https://marketplace.visualstudio.com/items?itemName=SpecialEliteSNP.yagpdb-cc
 
 ## Features
-
 - Functions
 - Variables
 - Automatic indenting
 - Folding recognition
 
-**Note:** Methods are not included and will be seen as a variable. Also not included is the golang time template.
-
 ## Requirements
 
-Recognised file extensions are `.yag`, `.yagpdb`, `yagcc` and `.yagpdbcc`.
+Recognised file extensions are `.cc.go` `.yag`, `.yagpdb`, `.yagcc` and `.yagpdbcc`.
 You can also change the language of the file to `"YAGPDB-CC"`
 
 ## Extension Settings
