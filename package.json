@@ -23,7 +23,7 @@
     "theme": "dark"
   },
   "activationEvents": [
-    "onCommand:yagpdbcc.helloWorld"
+    "*"
   ],
   "main": "./out/extension.js",
   "scripts": {
@@ -37,8 +37,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "yagpdbcc.helloWorld",
-        "title": "Hello World"
+        "command": "yagpdbcc.var",
+        "title": "Syntax"
       }
     ],
     "configuration": {
