@@ -1,7 +1,7 @@
 {
     "name": "yagpdb-cc-updated",
     "displayName": "YAGPDB-CC-UPDATED",
-    "version": "1.1.6",
+    "version": "1.2.0",
     "publisher": "ranger-4297",
     "description": "Updated syntax highlighting for YAGPDB Custom Commands",
     "author": {
@@ -31,7 +31,10 @@
                     "description": "Specifies which language file highlight based on",
                     "type": "string",
                     "default": "yagpdbcc.tmLanguage",
-                    "enum": ["yagpdbcc.tmLanguage","yagpdbcc_markup.tmLanguage"]
+                    "enum": [
+                        "yagpdbcc.tmLanguage",
+                        "yagpdbcc_markup.tmLanguage"
+                    ]
                 }
             }
         },
