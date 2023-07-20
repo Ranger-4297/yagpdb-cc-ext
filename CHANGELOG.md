@@ -42,3 +42,6 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 
 ## [1.7.2] - 20-07-2023
 - Language selection has an icon now
+
+## [1.7.3] - 20-07-2023
+- Missed class
