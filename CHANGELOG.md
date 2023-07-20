@@ -35,3 +35,7 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 ## [1.7.0] - 02-04-2023
 > Oudated as hell
 - Added `sanitizeText` function
+
+## [1.7.1] - 20-07-2023
+- Rolledback package.json
+- Trimmed trailing lines
