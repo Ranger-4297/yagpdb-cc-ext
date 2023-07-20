@@ -4,7 +4,7 @@ This extensions shows syntax highlighting for YAGPDB Custom Commands.
 Github: https://github.com/ranger-4297/yagpdb-cc-ext  
 VSC Marketplace: https://marketplace.visualstudio.com/items?itemName=ranger-4297.yagpdb-cc-updated
 
-# Original extension
+# Original maintainer and contributor
 Github: https://github.com/SpecialEliteSNP/yagpdb-cc-ext  
 VSC Marketplace: https://marketplace.visualstudio.com/items?itemName=SpecialEliteSNP.yagpdb-cc
 
