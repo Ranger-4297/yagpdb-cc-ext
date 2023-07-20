@@ -1,14 +1,16 @@
 {
     "name": "yagpdb-cc-updated",
     "displayName": "YAGPDB-CC-UPDATED",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "publisher": "ranger-4297",
     "description": "Updated syntax highlighting for YAGPDB Custom Commands",
     "author": {
         "name": "ranger-4297",
         "url": "https://github.com/ranger-4297"
     },
-    "categories": ["Programming Languages"],
+    "categories": [
+        "Programming Languages"
+    ],
     "icon": "icon.png",
     "galleryBanner": {
         "color": "#EC7760",
@@ -22,8 +24,9 @@
         "url": "https://github.com/ranger-4297/yagpdb-cc-ext"
     },
     "contributes": {
-        "languages": [{
-            "id": "yagpdbcc",
+        "languages": [
+            {
+                "id": "yagpdbcc",
                 "aliases": [
                     "YAGPDB CC",
                     "yag",
@@ -38,14 +41,14 @@
                     ".yagcc",
                     ".yagpdbcc"
                 ],
-            "configuration": "./language-configuration.json"
+                "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
             {
-            "language": "yagpdbcc",
-            "scopeName": "source.yag",
-            "path": "./syntaxes/yagpdbcc.tmLanguage.json"
+                "language": "yagpdbcc",
+                "scopeName": "source.yag",
+                "path": "./syntaxes/yagpdbcc.tmLanguage.json"
             }
         ]
     },
