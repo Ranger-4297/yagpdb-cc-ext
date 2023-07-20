@@ -8,9 +8,7 @@
         "name": "ranger-4297",
         "url": "https://github.com/ranger-4297"
     },
-    "categories": [
-        "Programming Languages"
-    ],
+    "categories": ["Programming Languages"],
     "icon": "icon.png",
     "galleryBanner": {
         "color": "#EC7760",
@@ -24,23 +22,8 @@
         "url": "https://github.com/ranger-4297/yagpdb-cc-ext"
     },
     "contributes": {
-        "configuration": {
-            "title": "Grammars",
-            "properties": {
-                "yagpdbcc.syntaxHighlighting": {
-                    "description": "Specifies which language file highlight based on",
-                    "type": "string",
-                    "default": "yagpdbcc.tmLanguage",
-                    "enum": [
-                        "yagpdbcc.tmLanguage",
-                        "yagpdbcc_markup.tmLanguage"
-                    ]
-                }
-            }
-        },
-        "languages": [
-            {
-                "id": "yagpdbcc",
+        "languages": [{
+            "id": "yagpdbcc",
                 "aliases": [
                     "YAGPDB CC",
                     "yag",
@@ -55,14 +38,14 @@
                     ".yagcc",
                     ".yagpdbcc"
                 ],
-                "configuration": "./language-configuration.json"
+            "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
             {
-                "language": "yagpdbcc",
-                "scopeName": "source.yag",
-                "path": "./syntaxes/yagpdbcc.tmLanguage.json"
+            "language": "yagpdbcc",
+            "scopeName": "source.yag",
+            "path": "./syntaxes/yagpdbcc.tmLanguage.json"
             }
         ]
     },
