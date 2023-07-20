@@ -1,7 +1,8 @@
 # DEPRECATED AS OF 20-07-2023
 Since I have no longer been maintaining this repository, I have decided to mark this repo as deprecated.
 Ranger has been maintaining the code for a while now on their fork and that is where you should be right now.
-Github: https://github.com/ranger-4297/yagpdb-cc-ext
+
+Github: https://github.com/ranger-4297/yagpdb-cc-ext  
 VSC Marketplace: https://marketplace.visualstudio.com/items?itemName=ranger-4297.yagpdb-cc-updated
 
 # YAGPDB-CC README
