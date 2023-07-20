@@ -39,3 +39,6 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 ## [1.7.1] - 20-07-2023
 - Rolledback package.json
 - Trimmed trailing lines
+
+## [1.7.2] - 20-07-2023
+- Language selection has an icon now
