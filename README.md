@@ -8,7 +8,9 @@
 </p>
 
 <div align="center">
-<img alt="GitHub release (with filter)" src="https://img.shields.io/github/v/release/Ranger-4297/YAGPDB-CCs">
+<img alt="Visual Studio Marketplace Installs" src="https://img.shields.io/visual-studio-marketplace/i/ranger-4297.yagpdb-cc-updated">
+<img alt="Visual Studio Marketplace Downloads" src="https://img.shields.io/visual-studio-marketplace/d/ranger-4297.yagpdb-cc-updated">
+<br />
 <img alt="GitHub" src="https://img.shields.io/github/license/Ranger-4297/YAGPDB-CC-EXT">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/Ranger-4297/YAGPDB-CC-EXT">
 <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ranger-4297/YAGPDB-CC-EXT">
@@ -94,4 +96,3 @@ Build with `vsce package` and install the VSIX file. (Uninstall the marketplace 
 
 ## Bugs and more
 <blockquote>If you find any bugs or issues, feel free to make a PR or raise an issue, alternatively contact me through my <a href="mailto:a.rhyker@gmail.com">email</a></blockquote>
-
