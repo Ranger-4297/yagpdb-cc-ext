@@ -40,7 +40,7 @@
 					"name": "constant.language.yag"
 				},
 				{
-					"match": "\\b(?:if|e(else|end)|r(ange|return)|t(emplate|ry)|block|define|w(ith|hile)|catch)\\b",
+					"match": "\\b(?:if|e(lse|nd)|r(ange|return)|t(emplate|ry)|block|define|w(ith|hile)|catch)\\b",
 					"name": "keyword.control.yag"
 				},
 				{
