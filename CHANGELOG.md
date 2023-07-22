@@ -45,3 +45,11 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 
 ## [1.7.3] - 20-07-2023
 - Missed class
+
+## [1.8.1] - 21-07-2023
+- Maintainer update
+- Readme rehaul
+- License
+
+## [1.8.2] - 22-07-2023
+- Additional e's in broken control regex
