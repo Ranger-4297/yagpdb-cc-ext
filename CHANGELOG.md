@@ -53,3 +53,6 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 
 ## [1.8.2] - 22-07-2023
 - Additional e's in broken control regex
+
+## [1.9.0] - 22-07-2023
+- Add highlighting to `.cc.go` and `.cc` file extensions
