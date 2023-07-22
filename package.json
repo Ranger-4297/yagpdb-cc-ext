@@ -39,7 +39,9 @@
                     ".yag",
                     ".yagpdb",
                     ".yagcc",
-                    ".yagpdbcc"
+                    ".yagpdbcc",
+                    ".cc.go",
+                    ".cc"
                 ],
                 "configuration": "./language-configuration.json",
                 "icon": {

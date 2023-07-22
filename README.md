@@ -60,7 +60,7 @@
 
 ## Recognized file-types
 
-Default recognised file extensions are `.yag`, `.yagpdb`, `.yagcc` and `.yagpdbcc`. 
+Default recognised file extensions are `.yag`, `.yagpdb`, `.yagcc`, `.cc`, `.cc.go` and `.yagpdbcc`. 
 You can also change the language of the file to `"YAGPDB-CC"`.
 
 > ℹ️ **INFO**<br />
