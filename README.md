@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/ranger-4297/yagpdb-ccs">
+  <a href="https://docs.yagpdb.xyz/custom-commands">
     <picture>
       <img src="https://yagpdb.xyz/static/img/logo_y.png" height="128">
     </picture>
