@@ -1,7 +1,7 @@
 {
     "name": "yagpdb-cc-updated",
     "displayName": "YAGPDB-CC-UPDATED",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "publisher": "ranger-4297",
     "description": "Updated syntax highlighting for YAGPDB Custom Commands",
     "author": {
