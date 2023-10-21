@@ -56,3 +56,13 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 
 ## [1.9.0] - 22-07-2023
 - Add highlighting to `.cc.go` and `.cc` file extensions
+
+# [1.10.0] - 09-10-2023
+- Updated logo
+
+# [1.11.0] - 21-10-2023
+- Adds `continue` to control class
+- Adds `sanitizeText`, `min`, `max`, `hasPermissions`, `jsonToSdict`, `pinMessage`, `publishResponse`, `publishMessage`, `trimSpace` & `verb` to function class
+
+# [1.11.1] - 21-10-2023
+- Remove `.cc` file extension [013d4c9](https://github.com/Ranger-4297/yagpdb-cc-ext/commit/013d4c9d28fbefc62e923fca57077c80af15ca87)
