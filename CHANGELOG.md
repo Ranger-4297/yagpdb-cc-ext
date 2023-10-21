@@ -66,3 +66,7 @@ All notable changes to the "yagpdb-cc" extension will be documented in this file
 
 # [1.11.1] - 21-10-2023
 - Remove `.cc` file extension [013d4c9](https://github.com/Ranger-4297/yagpdb-cc-ext/commit/013d4c9d28fbefc62e923fca57077c80af15ca87)
+
+# [1.11.2] - 21-10-2023
+- Adds `break` to control class
+- Fixes additional character in function class
